@@ -3,9 +3,10 @@
     padding: 0;
 
 }
-
-body {
-    background-image: url(images/aotcampus.jpg);
+/* Styles for all devices (default) */
+body { 
+    /* background-image: url(images/background03.jpeg); */
+    background-color: antiquewhite;
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -15,7 +16,7 @@ body {
 
 .main {
     width: 100vw;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%); */
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -34,19 +35,18 @@ body {
 }
 
 .logo {
-    color: #71c9f2;
-    font-size: 35px;
-    font-family: Arial;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
-    margin-top: 5px
-}
-
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover; 
+    margin-top:20px
+  }
+  
 .menu {
     width: 400px;
     float: left;
     height: 70px;
+    word-wrap:normal;
 }
 
 ul {
@@ -71,7 +71,21 @@ ul li a {
     transition: 0.4s ease-in-out;
 }
 
-
+.boxed-link {
+    display: inline-block; /* Ensures inline behavior for text */
+    padding: 5px 10px; /* Adjust padding for box size */
+    border: 1px solid #ccc; /* Customize border style and color */
+    border-radius: 3px; /* Add rounded corners if desired */
+    text-decoration: none; /* Remove underline (default for links) */
+    color: #000; /* Set text color */
+    background-color: transparent; /* Make background invisible initially */
+  }
+  
+  .boxed-link:hover { /* Style on hover */
+    background-color: #eee; /* Add background color on hover */
+  }
+  
+  
 
 .search {
     width: 330px;
@@ -86,7 +100,7 @@ ul li a {
     background: transparent;
     border: 1px solid #71c9f2;
     margin-top: 13px;
-    color: #fff;
+    color: #ff9494;
     border-right: none;
     font-size: 16px;
     float: left;
@@ -111,10 +125,11 @@ ul li a {
 
 
 .content {
+    margin-left:100px;
     width: 1200px;
     height: auto;
     margin: auto;
-    color: #fff;
+    color: #020074;
     position: relative;
 }
 
@@ -159,7 +174,7 @@ ul li a {
 }
 
 .content span {
-    color: #71c9f2;
+    color: #71b2f2;
     font-size: 65px
 }
 
