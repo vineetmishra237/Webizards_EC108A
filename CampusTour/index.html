@@ -4,48 +4,273 @@
 <head>
     <meta charset="UTF-8">
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
-    <title>Campus Tour</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Campus Tour</title>
     
 </head>
 
 <body>
-
     <div class="main">
-        <div class="navbar">
-            <div class="icon">
-                <img class="logo" src="images/logo.jpeg" alt="Logo" >
+        <div class="top-bar">
+            <div class="marquee-container">
+                <span class="marquee-content">This page has been created by Team Webizards
+                     in SCECE organized event DevWrap - from sketch to solution!
+                </span>
+            </div>
+        </div>
+        
+        <header class="header" id="menu">
+            <a href="#" class="logo"> <img src="images/Picsart_24-03-04_00-32-41-951.png" alt="Academy of Technology"> </a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#menu" class="boxed-link">HOME</a></li>
+                    <li><a href="#about" class="boxed-link">ABOUT</a></li>
+                    <li><a href="#youtubeIframe" class="boxed-link">CAMPUS TOUR</a></li>
+                    <li><a href="#communitySection" class="boxed-link">COMMUNITIES</a></li>
+                    <li><a href="#contact" class="boxed-link">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+        <div class="gallery">
+        <div id="slider">  
+            <div class="slides">  
+            <img src="slider/Slider 1.jpeg" width="100%" />
+             </div>
+              
+            <div class="slides">  
+            <img src="slider/Slider 2.jpeg" width="100%" />
+            </div>
+              
+            <div class="slides">  
+            <img src="slider/Slider 3.jpeg" width="100%" />
+            </div> 
+              
+            <div class="slides">  
+            <img src="slider/Slider 1.jpeg" width="100%" />
+            </div> 
+              
+            <div class="slides">  
+            <img src="slider/Slider 2.jpeg" width="100%" />
+            </div>  
+              
+            <div id="dot">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                </div>
+        </div>
+        </div>
+
+            <div class="about" id="about">
+                <img src="images/about-img.jpeg" alt="Image description">
+                <div class="text-content">
+                  <h2><span>About</span></h2><br>
+                  <p class="para">Established in 2003, the Academy of Technology (AOT) stands as one of the 
+                    most esteemed self-financed engineering colleges in West Bengal. Founded by the Ananda 
+                    Educational Development & Charitable Organisation (AEDCO), a trust renowned for its 
+                    profound social commitment, AOT is dedicated to advancing education by instilling 
+                    appropriate ethics and attitudes.Today, it has become the preferred career destination 
+                    for academically exceptional students, owing to its unwavering academic integrity, high 
+                    standards, and enticing campus placement opportunities.While specific details about the history of AOT in Hooghly may vary, its overarching 
+                    narrative reflects a journey of growth, adaptation, and commitment to fostering a 
+                    culture of academic excellence and innovation in engineering education. 
+                    </p>
+                </div>
+            </div>
+            <div class="history">
+                <div class="container">
+                    <div class="hist-content">
+                        <p class="para">The Academy of Technology (AOT), located in Hooghly, West Bengal, has a relatively 
+                            short but impactful history. Established in 2003, it was founded by the Ananda 
+                            Educational Development & Charitable Organisation (AEDCO), a trust known for its 
+                            dedication to social causes and education promotion. 
+                            Since its inception, AOT has aimed to provide quality engineering education while 
+                            emphasizing ethical values and attitudes among its students. Over the years, the 
+                            institution has continuously evolved to keep pace with advancements in engineering 
+                            and technology.</p>
+                    </div>
+                    <div class="right">
+                        <img src="images/history.jpeg" alt="Example Image">
+                    </div>
+                </div>
                 
             </div>
-
-            <div class="menu">
-                <ul>
-                    <li><a href="#" class="boxed-link">HOME</a></li>
-                    <li><a href="#" class="boxed-link">ABOUT</a></li>
-                    <li><a href="#" class="boxed-link">CAMPUS TOUR</a></li>
-                    <li><a href="#" class="boxed-link">CONTACT</a></li>
-                </ul>
+            
+            <!-- YOUTUBE CAMPUS TOUR -->
+            <div class="embed">
+            <div id="youtubeIframe">
+                <h1><span>Campus Tour<br><br></span></h1>
+                <iframe width="1040" height="585"  style="position: relative; left: 180px;" 
+                src="https://www.youtube.com/embed/3uZF7Js1YC0?si=yHWXRUdpIw4juOEr" 
+                title="Campus Tour-Academy of Technology" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
             </div>
-
-            <div class="search">
-                <input class="srch" type="search" name="" placeholder="Type To Search">
-                <a href="#"> <button class="btn">Search</button></a>
             </div>
+            
+            
+            
+            <!-- COMMUNITY SLIDER -->
+            <div class="community">
+            <div class="slider2" id="communitySection">
+                <h1><span><br>College Communities</span></h1>
+                <p class="para"> <br>Check out all student communities at Academy of Technology</p>
+                <div class="slider__content" >
+                  <div class="slider__item" id="img9">
+                    <div><img id="img1" src="community/ece.jpeg" alt=""  width="300px " height="300px" ></div>
+                    <div class="communityText"></div>
+                      <div class="social">
+                            <a href="https://www.instagram.com/sceceaot/" class="communitySocial"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/sceceaot/" class="communitySocial"><i class="fab fa-linkedin"></i></a>
+                            <!-- <a href="" class="communitySocial">f</a> -->
+                      </div>
+                    </div>
 
-        </div>
-        <div class="content">
-            <h1><span>AOT CAMPUS TOUR</span></h1>
-            <!-- <h1>AOT CAMPUS <br><span>TOUR</span> <br>WEBSITE</h1> -->
-            <p class="par">
-                #...........site-under-construction
-            </p>
+                  <div class="slider__item">
+                      <div><img id="img1" src="community/cse.jpeg" alt=""  width="300px " height="300px" ></div>
+                      <div class="communityText"></div>
+                      <div class="social">
+                            <a href="https://www.instagram.com/sccse_aot/" class="communitySocial"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/sccseaot/about/" class="communitySocial"><i class="fab fa-linkedin"></i></a>
+                            <!-- <a href="" class="communitySocial">f</a> -->
+                      </div>
+                    
+                  </div>
+                  <div class="slider__item">
+                      <div><img id="img1" src="community/csbs.jpeg" alt=""  width="300px " height="300px" ></div>
+                      <div class="communityText"></div>
+                      <div class="social">
+                            <a href="https://www.instagram.com/sccsbsaot?igshid=ZDdkNTZiNTM%3D" class="communitySocial"> <i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/sccsbsaot/" class="communitySocial"><i class="fab fa-linkedin"></i></a>
+                            <!-- <a href="" class="communitySocial">f</a> -->
+                      </div>
+                    
+                  </div>
+                  <div class="slider__item">
+                      <div><img id="img1" src="community/eee.jpeg" alt=""  width="300px " height="300px" ></div>
+                      <div class="communityText"></div>
+                      <div class="social">
+                            <a href="https://www.instagram.com/sc.eee_aot/" class="communitySocial"> <i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/students.chapter.aeie.eee/about_contact_and_basic_info" class="communitySocial"><i class="fab fa-facebook"></i></a>
+                            <!-- <a href="" class="communitySocial">f</a> -->
+                      </div>
+                    
+                  </div>
+                  <div class="slider__item">
+                      <div><img id="img1" src="community/ieee.jpeg" alt=""  width="300px " height="300px" ></div>
+                      <div class="communityText"></div>
+                      <div class="social">
+                            <!-- <a href="" class="communitySocial"> G</a> -->
+                            <a href="https://www.linkedin.com/company/ieeesbaot/" class="communitySocial"><i class="fab fa-linkedin"></i></a>
+                            <!-- <a href="" class="communitySocial">f</a> -->
+                      </div>
+                  </div>
+                  <div class="slider__item">
+                    <div><img id="img1" src="community/ingenium.jpeg" alt=""  width="300px " height="300px" ></div>
+                    <div class="communityText"></div>
+                    <div class="social">
+                          <a href="https://www.instagram.com/aotingenium/" class="communitySocial"> <i class="fab fa-instagram"></i></a>
+                          <a href="https://www.linkedin.com/company/aotingenium/mycompany/" class="communitySocial"><i class="fab fa-linkedin"></i></a>
+                          <a href="https://www.facebook.com/aotstudentschapter" class="communitySocial"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                  <div class="slider__item">
+                      <div><img id="img1" src="community/ece.jpeg" alt=""  width="300px " height="300px" ></div>
+                      <div class="communityText"></div>
+                      <div class="social">
+                            <a href="https://www.instagram.com/sceceaot/" class="communitySocial"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/sceceaot/" class="communitySocial"><i class="fab fa-linkedin"></i></a>
+                            <!-- <a href="" class="communitySocial">f</a> -->
+                      </div>
+                  </div>
+                  <div class="slider__item">
+                      <div><img id="img1" src="community/cse.jpeg" alt=""  width="300px " height="300px" ></div>
+                      <div class="communityText"></div>
+                      <div class="social">
+                        <a href="https://www.instagram.com/sccse_aot/" class="communitySocial"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/sccseaot/about/" class="communitySocial"><i class="fab fa-linkedin"></i></a>
+                        <!-- <a href="" class="communitySocial">f</a> -->
+                  </div>
+                  </div>
+                  <div class="slider__item">
+                      <div><img id="img1" src="community/csbs.jpeg" alt=""  width="300px " height="300px" ></div>
+                      <div class="communityText"></div>
+                      <div class="social">
+                        <a href="https://www.instagram.com/sccsbsaot?igshid=ZDdkNTZiNTM%3D" class="communitySocial"> <i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/sccsbsaot/" class="communitySocial"><i class="fab fa-linkedin"></i></a>
+                        <!-- <a href="" class="communitySocial">f</a> -->
+                  </div>
+                  </div>
+                  <div class="slider__item">
+                      <div><img id="img1" src="community/eee.jpeg" alt=""  width="300px " height="300px" ></div>
+                      <div class="communityText"></div>
+                      <div class="social">
+                        <a href="https://www.instagram.com/sc.eee_aot/" class="communitySocial"> <i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/students.chapter.aeie.eee/about_contact_and_basic_info" class="communitySocial"><i class="fab fa-facebook"></i></a>
+                        <!-- <a href="" class="communitySocial">f</a> -->
+                  </div>
+                  </div>
+                  <div class="slider__item">
+                      <div><img id="img1" src="community/ieee.jpeg" alt=""  width="300px " height="300px" ></div>
+                      <div class="communityText"></div>
+                      <div class="social">
+                        <!-- <a href="" class="communitySocial"> G</a> -->
+                        <a href="https://www.linkedin.com/company/ieeesbaot/" class="communitySocial"><i class="fab fa-linkedin"></i></a>
+                        <!-- <a href="" class="communitySocial">f</a> -->
+                  </div>
+                    
+                  </div>
+                  
+                </div>
+                <div class="slider__nav">
+               
+                </div>
+              </div>
+             </div> 
 
-            <button class="cn"><a href="#">JOIN US</a></button>
+
+
+        <div class="container" id="contact">
+            <h2><span>Contact</span></h2>
+            <div class="form-container">
+                <form action="#" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="text-container">
+                <p><b>Tel.:</b> +91-9830161441<br><b>Email:</b> admin@aot.edu.in</p>
+                <p>ACADEMY OF TECHNOLOGY<br>
+                    G.T.Road (Adisaptagram), Aedconagar <br>
+                    Hooghly-712121 West Bengal, India</p>
+            </div>
         </div>
+        
+
+    <footer class="footer">
+        <div class="footer-content">
+          <p class="copyright">Copyright &copy; Team Webizards</p>
+          <ul class="social-links">
+            <li><a href="https://www.facebook.com/groups/mail.aot/"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/aot-alumni-connect/about/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/aotconnect?igsh=MWg0Z2ozcXd4amVicw%3D%3D"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://aot.edu.in"><i class="fab fa-globe"></i></a></li>
+            </ul>
+        </div>
+      </footer>
     </div>
-    </div>
-    </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
